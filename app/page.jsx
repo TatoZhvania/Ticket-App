@@ -23,7 +23,7 @@ const Dashboard = async () => {
   ];
   return (
     <div className="p-5">
-      {/* <div>
+      <div>
         {tickets &&
           uniqueCategories?.map((uniqueCategory, categoryIndex) => (
             <div key={categoryIndex} className="mb-4">
@@ -42,8 +42,7 @@ const Dashboard = async () => {
             </div>
           ))}
         <div className="lg:grid grid-cols-2 xl:grid-cols-4"></div>
-      </div> */}
-      <h1>helo</h1>
+      </div>
     </div>
   );
 };
